@@ -1,0 +1,31 @@
+{
+	"name": "Tgt_EMP_v1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Conn_BlobTgt",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"TgtFileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@dataset().TgtFileName",
+					"type": "Expression"
+				},
+				"container": "inputv1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
