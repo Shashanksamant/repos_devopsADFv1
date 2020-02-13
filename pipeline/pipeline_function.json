@@ -22,7 +22,7 @@
 					}
 				},
 				"linkedServiceName": {
-					"referenceName": "AzureFunction1",
+					"referenceName": "AzureFunction2",
 					"type": "LinkedServiceReference"
 				}
 			}
