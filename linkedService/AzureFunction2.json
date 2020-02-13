@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "AzureFunction",
 		"typeProperties": {
-			"functionAppUrl": "https://funcshashank.azurewebsites.net",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFERlRVVE9SSUFMVjFfMzRlZjE2YWUtN2JiZi00MjdkLThmMjMtYWFhOTM1NTZhMzAxIg0KfQ=="
+			"functionAppUrl": "https://funcshashank.azurewebsites.net/api/HttpTrigger1?code=LDKXt5nFA8oO6Loj16RJ2oGbbtXJqUIvUKbgl7q6Cd8D1F8I8Ch6NQ==",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFERlRVVE9SSUFMVjFfMmZmMWIzNDItMzI0NS00YzQ4LTljMTMtNTRhYWQ4YjFiYzc1Ig0KfQ=="
 		}
 	}
 }
