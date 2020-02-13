@@ -116,7 +116,7 @@
 						},
 						"userProperties": [],
 						"typeProperties": {
-							"notebookPath": "/03-Data-Ingestion-Via-ADF/includes",
+							"notebookPath": "/03-Data-Ingestion-Via-ADF/includes/Databricks-Data-Transformations",
 							"baseParameters": {
 								"accountName": "sablobadftutorial",
 								"accountKey": "bjf0+WONAaVhVvE7CQyD6Bca8uGF/FLPyY/Ndk/gYM6lo5h3eBCcWgljjlKFd5og4FujR2S+3TqXS9yMvar+9Q==",
