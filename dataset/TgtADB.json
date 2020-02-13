@@ -1,0 +1,21 @@
+{
+	"name": "TgtADB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Conn_BlobTgt",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "dwlabstorageoutput"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
