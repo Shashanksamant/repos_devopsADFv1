@@ -53,6 +53,38 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "Copy data1",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/03-Data-Ingestion-Via-ADF/includes",
+					"baseParameters": {
+						"accountName": "sablobadftutorial",
+						"accountKey": "bjf0+WONAaVhVvE7CQyD6Bca8uGF/FLPyY/Ndk/gYM6lo5h3eBCcWgljjlKFd5og4FujR2S+3TqXS9yMvar+9Q==",
+						"containerName": "dwlabstorageoutput"
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks1",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
