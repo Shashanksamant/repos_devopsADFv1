@@ -273,6 +273,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
+						"folderPath": "03.02",
 						"container": "dwlabstorageoutput"
 					},
 					"columnDelimiter": ",",
